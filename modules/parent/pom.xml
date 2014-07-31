@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.springside</groupId>
-	<artifactId>springside-parent</artifactId>
-	<version>4.2.3-SNAPSHOT</version>
+	<groupId>com.sxj</groupId>
+	<artifactId>spring-parent</artifactId>
+	<version>4.2.3</version>
 	<name>Springside :: Module :: Parent</name>
 	<packaging>pom</packaging>
 
@@ -58,27 +58,15 @@
 	</prerequisites>
 
 	<!-- 设定除中央仓库 (repo1.maven.org/maven2/)外的其他仓库,按设定顺序进行查询，如有Nexus私服, 取消注释并指向正确的服务器地址 
-	<repositories>
-		<repository>
-			<id>nexus</id>
-			<name>Team Nexus Repository</name>
-			<url>http://localhost:8081/nexus/content/groups/public</url>
-		</repository>
-	</repositories>-->
+		<repositories> <repository> <id>nexus</id> <name>Team Nexus Repository</name> 
+		<url>http://localhost:8081/nexus/content/groups/public</url> </repository> 
+		</repositories> -->
 
-	<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址
-	<pluginRepositories>
-		<pluginRepository>
-			<id>nexus</id>
-			<name>Team Nexus Repository</name>
-			<url>http://localhost:8081/nexus/content/groups/public</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories> -->
+	<!-- 如有Nexus私服, 取消注释并指向正确的服务器地址 <pluginRepositories> <pluginRepository> 
+		<id>nexus</id> <name>Team Nexus Repository</name> <url>http://localhost:8081/nexus/content/groups/public</url> 
+		<snapshots> <enabled>false</enabled> </snapshots> </pluginRepository> </pluginRepositories> -->
 
-	<!-- 预定义依赖项的version,scope与exclusions,子项目中只需定义groupId 与  artifactId 即可 -->
+	<!-- 预定义依赖项的version,scope与exclusions,子项目中只需定义groupId 与 artifactId 即可 -->
 	<dependencyManagement>
 		<dependencies>
 			<!-- SPRINGSIDE MODULES begin -->
@@ -100,8 +88,8 @@
 				<version>${springside.version}</version>
 			</dependency>
 			<!-- SPRINGSIDE MODULES end -->
-			
-			<!-- spring-->
+
+			<!-- spring -->
 			<!-- 纯粹为了exclude commons-loging -->
 			<dependency>
 				<groupId>org.springframework</groupId>
@@ -114,7 +102,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 
 			<!-- PERSISTENCE begin -->
 			<!-- hibernate -->
@@ -165,7 +153,7 @@
 				<artifactId>mybatis-spring</artifactId>
 				<version>1.2.2</version>
 			</dependency>
-		
+
 			<!-- connection pool -->
 			<dependency>
 				<groupId>org.apache.tomcat</groupId>
@@ -182,7 +170,7 @@
 				<artifactId>spring-webmvc</artifactId>
 				<version>${spring.version}</version>
 			</dependency>
-			
+
 			<!-- sitemesh -->
 			<dependency>
 				<groupId>opensymphony</groupId>
@@ -192,7 +180,7 @@
 			</dependency>
 
 			<!-- j2ee web spec -->
-			<!-- update to servlet 3.0 for spring 4.0 MockHttpServletRequest  -->
+			<!-- update to servlet 3.0 for spring 4.0 MockHttpServletRequest -->
 			<dependency>
 				<groupId>javax.servlet</groupId>
 				<artifactId>javax.servlet-api</artifactId>
@@ -568,7 +556,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>fluent-hc</artifactId>
@@ -580,7 +568,7 @@
 					</exclusion>
 				</exclusions>
 			</dependency>
-			
+
 			<dependency>
 				<groupId>org.apache.httpcomponents</groupId>
 				<artifactId>httpcore</artifactId>
@@ -622,7 +610,7 @@
 				<version>${junit.version}</version>
 				<scope>test</scope>
 			</dependency>
-			
+
 			<!-- assertj -->
 			<dependency>
 				<groupId>org.assertj</groupId>
@@ -630,7 +618,7 @@
 				<version>${assertj.version}</version>
 				<scope>test</scope>
 			</dependency>
-			
+
 			<!-- mockito -->
 			<dependency>
 				<groupId>org.mockito</groupId>
@@ -932,7 +920,7 @@
 					<artifactId>jetty-maven-plugin</artifactId>
 					<version>${jetty.version}</version>
 				</plugin>
-				<!-- tomcat插件  -->
+				<!-- tomcat插件 -->
 				<plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
 					<artifactId>tomcat7-maven-plugin</artifactId>
@@ -1008,6 +996,8 @@
 			</build>
 		</profile>
 
+
+
 		<!-- 执行@Category(UnStable.class)的TestCase -->
 		<profile>
 			<id>run-unstable</id>
@@ -1024,4 +1014,18 @@
 			</build>
 		</profile>
 	</profiles>
+	<distributionManagement>
+		<repository>
+			<id>release</id>
+			<name>Local Nexus Repository</name>
+			<url>http://192.168.1.11:8080/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>nexus-snapshots</id>
+			<name>Local Nexus Repository</name>
+			<url>http://192.168.1.11:8080/nexus/content/groups/public</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+
 </project>

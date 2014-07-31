@@ -89,6 +89,7 @@ public class BeanValidators {
 	 * 辅助方法, 转换Set<ConstraintViolations>为List<propertyPath message>.
 	 */
 	public static List<String> extractPropertyAndMessageAsList(Set<? extends ConstraintViolation> constraintViolations) {
+		
 		return extractPropertyAndMessageAsList(constraintViolations, " ");
 	}
 
