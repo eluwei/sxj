@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.jms.simple;
+package com.sxj.spring.examples.showcase.demos.jms.simple;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,7 +11,7 @@ import java.util.Map;
 import javax.jms.Destination;
 
 import org.springframework.jms.core.JmsTemplate;
-import org.springside.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.entity.User;
 
 /**
  * JMS用户变更消息生产者.

@@ -3,21 +3,21 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.redis.job.consumer;
+package com.sxj.spring.examples.showcase.demos.redis.job.consumer;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.springside.examples.showcase.demos.redis.JedisPoolFactory;
-import org.springside.modules.nosql.redis.JedisUtils;
-import org.springside.modules.nosql.redis.scheduler.SimpleJobConsumer;
-import org.springside.modules.test.benchmark.ConcurrentBenchmark;
+import com.sxj.spring.examples.showcase.demos.redis.JedisPoolFactory;
 
 import redis.clients.jedis.JedisPool;
 
 import com.google.common.util.concurrent.RateLimiter;
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.nosql.redis.scheduler.SimpleJobConsumer;
+import com.sxj.spring.modules.test.benchmark.ConcurrentBenchmark;
 
 /**
  * 多线程运行JobConsumer，从"ss.job:ready" list中popup job进行处理。

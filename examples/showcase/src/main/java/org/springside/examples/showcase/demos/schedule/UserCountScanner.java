@@ -3,13 +3,13 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.schedule;
+package com.sxj.spring.examples.showcase.demos.schedule;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springside.examples.showcase.service.AccountService;
+import com.sxj.spring.examples.showcase.service.AccountService;
 
 /**
  * 被Spring各种Scheduler反射调用的Service POJO.

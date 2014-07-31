@@ -8,7 +8,7 @@
 		<version>4.2.3</version>
 		<relativePath>../../modules/parent/</relativePath>
 	</parent>
-	<groupId>com.sxj.examples</groupId>
+	<groupId>com.sxj</groupId>
 	<artifactId>showcase</artifactId>
 	<packaging>war</packaging>
 	<name>Springside :: Example :: Showcase</name>
@@ -26,14 +26,14 @@
 		<dependency>
 			<groupId>com.sxj</groupId>
 			<artifactId>spring-core</artifactId>
-			<version>4.2.3</version>
+			
 		</dependency>
 		<dependency>
 			<groupId>com.sxj</groupId>
 			<artifactId>spring-extension</artifactId>
-			<version>4.2.3</version>
+			
 		</dependency>
-		<dependency>
+		<dependency> 
 			<groupId>com.sxj</groupId>
 			<artifactId>spring-metric</artifactId>
 			<version>4.2.3</version>
@@ -365,16 +365,16 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-core</artifactId>
 			<classifier>tests</classifier>
 			<!-- for xxxDemo class -->
 			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-extension</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-extension</artifactId>
 			<classifier>tests</classifier>
 			<!-- for xxxDemo class -->
 			<scope>compile</scope>

@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.hystrix.dependency;
+package com.sxj.spring.examples.showcase.demos.hystrix.dependency;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.service.AccountEffectiveService;
-import org.springside.examples.showcase.webservice.rest.RestException;
-import org.springside.examples.showcase.webservice.rest.UserDTO;
-import org.springside.modules.mapper.BeanMapper;
-import org.springside.modules.utils.Threads;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.service.AccountEffectiveService;
+import com.sxj.spring.examples.showcase.webservice.rest.RestException;
+import com.sxj.spring.examples.showcase.webservice.rest.UserDTO;
+import com.sxj.spring.modules.mapper.BeanMapper;
+import com.sxj.spring.modules.utils.Threads;
 
 /**
  * 模拟被Service所依赖的Resource.

@@ -2410,7 +2410,7 @@
 	<tag>
 		<description>Renders multiple HTML 'input' tags with type 'radio', follow Twitter BootStrap style.</description>
 		<name>bsradiobuttons</name>
-		<tag-class>org.springside.modules.web.taglib.BSRadioButtonsTag</tag-class>
+		<tag-class>com.sxj.spring.modules.web.taglib.BSRadioButtonsTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<description>Equivalent to "class" for label emelement. - HTML Optional Attribute</description>
@@ -2605,7 +2605,7 @@
 	<tag>
 		<description>Renders multiple HTML 'input' tags with type 'checkbox',follow Twitter BootStrap styles.</description>
 		<name>bscheckboxes</name>
-		<tag-class>org.springside.modules.web.taglib.BSCheckboxesTag</tag-class>
+		<tag-class>com.sxj.spring.modules.web.taglib.BSCheckboxesTag</tag-class>
 		<body-content>empty</body-content>
 		<attribute>
 			<description>Equivalent to "class" for label emelement. - HTML Optional Attribute</description>

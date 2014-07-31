@@ -15,8 +15,8 @@
 	<dependencies>
 		<!-- SPRINGSIDE -->
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-core</artifactId>
 		</dependency>
 		<!-- SPRING -->
 		<dependency>
@@ -84,8 +84,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-core</artifactId>
 			<classifier>tests</classifier>
 		</dependency>
 
@@ -160,10 +160,10 @@
 						</goals>
 						<configuration>
 							<includes>
-								<include>org/springside/modules/test/**/*.class</include>
+								<include>com/sxj/spring/modules/test/**/*.class</include>
 							</includes>
 							<excludes>
-								<exclude>org/springside/modules/test/**/*Test.class</exclude>
+								<exclude>com/sxj/spring/modules/test/**/*Test.class</exclude>
 							</excludes>
 						</configuration>
 					</execution>

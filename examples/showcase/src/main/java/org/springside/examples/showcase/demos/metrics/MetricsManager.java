@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.metrics;
+package com.sxj.spring.examples.showcase.demos.metrics;
 
 import java.net.InetSocketAddress;
 import java.util.concurrent.TimeUnit;
@@ -11,11 +11,11 @@ import java.util.concurrent.TimeUnit;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import org.springside.modules.metrics.MetricRegistry;
-import org.springside.modules.metrics.exporter.JmxExporter;
-import org.springside.modules.metrics.reporter.GraphiteReporter;
-import org.springside.modules.metrics.reporter.ReportScheduler;
-import org.springside.modules.metrics.reporter.Slf4jReporter;
+import com.sxj.spring.modules.metrics.MetricRegistry;
+import com.sxj.spring.modules.metrics.exporter.JmxExporter;
+import com.sxj.spring.modules.metrics.reporter.GraphiteReporter;
+import com.sxj.spring.modules.metrics.reporter.ReportScheduler;
+import com.sxj.spring.modules.metrics.reporter.Slf4jReporter;
 
 /**
  * 注册多个Reporter

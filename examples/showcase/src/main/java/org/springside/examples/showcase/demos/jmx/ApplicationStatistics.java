@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.jmx;
+package com.sxj.spring.examples.showcase.demos.jmx;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

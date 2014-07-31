@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.service;
+package com.sxj.spring.examples.showcase.service;
 
 import java.io.Serializable;
 
@@ -21,9 +21,9 @@ import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
-import org.springside.examples.showcase.entity.Role;
-import org.springside.examples.showcase.entity.User;
-import org.springside.modules.utils.Encodes;
+import com.sxj.spring.examples.showcase.entity.Role;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.modules.utils.Encodes;
 
 import com.google.common.base.Objects;
 

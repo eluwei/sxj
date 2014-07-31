@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.cache.guava;
+package com.sxj.spring.examples.showcase.demos.cache.guava;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -12,16 +12,16 @@ import java.util.concurrent.TimeUnit;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.service.AccountService;
-import org.springside.modules.test.data.DataFixtures;
-import org.springside.modules.test.log.LogbackListAppender;
-import org.springside.modules.test.spring.SpringTransactionalTestCase;
-import org.springside.modules.utils.Threads;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.service.AccountService;
+import com.sxj.spring.modules.utils.Threads;
 
 import com.google.common.cache.CacheBuilder;
 import com.google.common.cache.CacheLoader;
 import com.google.common.cache.LoadingCache;
+import com.sxj.spring.modules.test.data.DataFixtures;
+import com.sxj.spring.modules.test.log.LogbackListAppender;
+import com.sxj.spring.modules.test.spring.SpringTransactionalTestCase;
 
 /**
  * 本地缓存演示，使用GuavaCache.

@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.jms.advanced;
+package com.sxj.spring.examples.showcase.demos.jms.advanced;
 
 import javax.jms.Destination;
 import javax.jms.JMSException;
@@ -13,7 +13,7 @@ import javax.jms.Session;
 
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.jms.core.MessageCreator;
-import org.springside.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.entity.User;
 
 /**
  * JMS用户变更消息生产者.

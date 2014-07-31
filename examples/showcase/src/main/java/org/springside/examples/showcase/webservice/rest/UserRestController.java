@@ -18,9 +18,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springside.examples.showcase.entity.User;
 import org.springside.examples.showcase.service.AccountEffectiveService;
 import org.springside.modules.mapper.BeanMapper;
-import org.springside.modules.metrics.Timer;
-import org.springside.modules.metrics.Timer.TimerContext;
-import org.springside.modules.metrics.MetricRegistry;
+
+import com.sxj.spring.modules.metrics.MetricRegistry;
+import com.sxj.spring.modules.metrics.Timer;
+import com.sxj.spring.modules.metrics.Timer.TimerContext;
 
 /**
  * Shiro的配置文件中对/api/secure/**进行拦截，要求authBasic认证.

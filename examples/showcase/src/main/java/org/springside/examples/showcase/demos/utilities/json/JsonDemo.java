@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.json;
+package com.sxj.spring.examples.showcase.demos.utilities.json;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -21,7 +21,7 @@ import javax.xml.bind.annotation.XmlType;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.junit.Test;
-import org.springside.modules.mapper.JsonMapper;
+import com.sxj.spring.modules.mapper.JsonMapper;
 
 import com.fasterxml.jackson.annotation.JsonAnyGetter;
 import com.fasterxml.jackson.annotation.JsonAnySetter;

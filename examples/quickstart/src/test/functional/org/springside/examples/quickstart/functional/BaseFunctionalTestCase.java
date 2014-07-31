@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.quickstart.functional;
+package com.sxj.spring.examples.quickstart.functional;
 
 import java.net.URL;
 import java.sql.Driver;
@@ -13,11 +13,12 @@ import org.junit.BeforeClass;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.datasource.SimpleDriverDataSource;
-import org.springside.examples.quickstart.QuickStartServer;
-import org.springside.modules.test.data.DataFixtures;
-import org.springside.modules.test.jetty.JettyFactory;
-import org.springside.modules.test.spring.Profiles;
-import org.springside.modules.utils.PropertiesLoader;
+import com.sxj.spring.modules.test.data.DataFixtures;
+import com.sxj.spring.modules.test.jetty.JettyFactory;
+import com.sxj.spring.modules.test.spring.Profiles;
+import com.sxj.spring.modules.utils.PropertiesLoader;
+
+import com.sxj.spring.examples.quickstart.QuickStartServer;
 
 /**
  * 功能测试基类.

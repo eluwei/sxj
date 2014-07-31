@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.dozer;
+package com.sxj.spring.examples.showcase.demos.utilities.dozer;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -11,7 +11,7 @@ import java.util.List;
 
 import org.dozer.Mapping;
 import org.junit.Test;
-import org.springside.modules.mapper.BeanMapper;
+import com.sxj.spring.modules.mapper.BeanMapper;
 
 /**
  * 演示Dozer如何只要属性名相同，可以罔顾属性类型是基础类型<->String的差别，Array转为List，甚至完全另一种DTO的差别。

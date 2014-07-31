@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.xml;
+package com.sxj.spring.examples.showcase.demos.utilities.xml;
 
 import javax.xml.bind.annotation.XmlAttribute;
 

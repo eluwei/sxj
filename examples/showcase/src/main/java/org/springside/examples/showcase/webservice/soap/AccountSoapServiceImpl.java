@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.webservice.soap;
+package com.sxj.spring.examples.showcase.webservice.soap;
 
 import java.util.List;
 
@@ -18,19 +18,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DuplicateKeyException;
-import org.springside.examples.showcase.entity.Team;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.service.AccountEffectiveService;
-import org.springside.examples.showcase.webservice.soap.response.GetTeamDetailResult;
-import org.springside.examples.showcase.webservice.soap.response.GetUserResult;
-import org.springside.examples.showcase.webservice.soap.response.SearchUserResult;
-import org.springside.examples.showcase.webservice.soap.response.base.IdResult;
-import org.springside.examples.showcase.webservice.soap.response.base.WSResult;
-import org.springside.examples.showcase.webservice.soap.response.dto.TeamDTO;
-import org.springside.examples.showcase.webservice.soap.response.dto.UserDTO;
-import org.springside.modules.beanvalidator.BeanValidators;
-import org.springside.modules.mapper.BeanMapper;
-import org.springside.modules.utils.Exceptions;
+import com.sxj.spring.examples.showcase.entity.Team;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.service.AccountEffectiveService;
+import com.sxj.spring.examples.showcase.webservice.soap.response.GetTeamDetailResult;
+import com.sxj.spring.examples.showcase.webservice.soap.response.GetUserResult;
+import com.sxj.spring.examples.showcase.webservice.soap.response.SearchUserResult;
+import com.sxj.spring.examples.showcase.webservice.soap.response.base.IdResult;
+import com.sxj.spring.examples.showcase.webservice.soap.response.base.WSResult;
+import com.sxj.spring.examples.showcase.webservice.soap.response.dto.TeamDTO;
+import com.sxj.spring.examples.showcase.webservice.soap.response.dto.UserDTO;
+import com.sxj.spring.modules.beanvalidator.BeanValidators;
+import com.sxj.spring.modules.mapper.BeanMapper;
+import com.sxj.spring.modules.utils.Exceptions;
 
 /**
  * WebService服务端实现类.
@@ -40,7 +40,7 @@ import org.springside.modules.utils.Exceptions;
  * @author calvin
  */
 // serviceName指明WSDL中<wsdl:service>与<wsdl:binding>元素的名称, endpointInterface属性指向Interface类全称.
-@WebService(serviceName = "AccountService", endpointInterface = "org.springside.examples.showcase.webservice.soap.AccountSoapService", targetNamespace = WsConstants.NS)
+@WebService(serviceName = "AccountService", endpointInterface = "com.sxj.spring.examples.showcase.webservice.soap.AccountSoapService", targetNamespace = WsConstants.NS)
 // 增加inbound/outbound SOAP内容的日志
 @Features(features = "org.apache.cxf.feature.LoggingFeature")
 public class AccountSoapServiceImpl implements AccountSoapService {

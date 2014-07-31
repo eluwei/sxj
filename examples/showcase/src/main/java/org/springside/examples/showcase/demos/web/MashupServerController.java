@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.web;
+package com.sxj.spring.examples.showcase.demos.web;
 
 import java.util.Collections;
 import java.util.Map;
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springside.modules.mapper.JsonMapper;
-import org.springside.modules.web.MediaTypes;
+import com.sxj.spring.modules.mapper.JsonMapper;
+import com.sxj.spring.modules.web.MediaTypes;
 
 import com.fasterxml.jackson.databind.util.JSONPObject;
 

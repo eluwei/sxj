@@ -6,8 +6,9 @@
 package org.springside.examples.showcase.demos.redis.elector;
 
 import org.springside.examples.showcase.demos.redis.JedisPoolFactory;
-import org.springside.modules.nosql.redis.JedisUtils;
-import org.springside.modules.nosql.redis.elector.MasterElector;
+
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.nosql.redis.elector.MasterElector;
 
 import redis.clients.jedis.JedisPool;
 

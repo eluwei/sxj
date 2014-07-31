@@ -3,12 +3,12 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.cache.memcached;
+package com.sxj.spring.examples.showcase.demos.cache.memcached;
 
 /**
  * 统一定义Memcached中存储的各种对象的Key前缀和超时时间.
  * 
- * @see org.springside.examples.showcase.service.AccountService#getInitializedUser(String)
+ * @see com.sxj.spring.examples.showcase.service.AccountService#getInitializedUser(String)
  * 
  * @author calvin
  */

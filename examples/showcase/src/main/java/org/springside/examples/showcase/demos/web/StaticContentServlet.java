@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.web;
+package com.sxj.spring.examples.showcase.demos.web;
 
 import java.io.File;
 import java.io.IOException;
@@ -21,13 +21,13 @@ import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.context.ApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
-import org.springside.modules.web.Servlets;
+import com.sxj.spring.modules.web.Servlets;
 
 /**
  * 本地静态内容展示与下载的Servlet.
  * 
  * 演示文件高效读取,客户端缓存控制及Gzip压缩传输.
- * 可使用org.springside.examples.showcase.cache包下的Ehcache或本地Map缓存静态内容基本信息(未演示).
+ * 可使用com.sxj.spring.examples.showcase.cache包下的Ehcache或本地Map缓存静态内容基本信息(未演示).
  * 
  * 演示访问地址为：
  * static-content?contentPath=static/images/logo.jpg

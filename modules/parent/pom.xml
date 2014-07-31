@@ -10,7 +10,7 @@
 
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
-		<springside.version>4.2.3-SNAPSHOT</springside.version>
+		<springside.version>4.2.3</springside.version>
 		<spring.version>4.0.5.RELEASE</spring.version>
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<mybatis.version>3.2.7</mybatis.version>
@@ -71,20 +71,20 @@
 		<dependencies>
 			<!-- SPRINGSIDE MODULES begin -->
 			<dependency>
-				<groupId>org.springside</groupId>
-				<artifactId>springside-core</artifactId>
+				<groupId>com.sxj</groupId>
+				<artifactId>spring-core</artifactId>
 				<version>${springside.version}</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.springside</groupId>
-				<artifactId>springside-extension</artifactId>
+				<groupId>com.sxj</groupId>
+				<artifactId>spring-extension</artifactId>
 				<version>${springside.version}</version>
 				<scope>compile</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.springside</groupId>
-				<artifactId>springside-metrics</artifactId>
+				<groupId>com.sxj</groupId>
+				<artifactId>spring-metrics</artifactId>
 				<version>${springside.version}</version>
 			</dependency>
 			<!-- SPRINGSIDE MODULES end -->
@@ -647,15 +647,15 @@
 
 			<!-- springside -->
 			<dependency>
-				<groupId>org.springside</groupId>
-				<artifactId>springside-core</artifactId>
+				<groupId>com.sxj</groupId>
+				<artifactId>spring-core</artifactId>
 				<version>${springside.version}</version>
 				<classifier>tests</classifier>
 				<scope>test</scope>
 			</dependency>
 			<dependency>
-				<groupId>org.springside</groupId>
-				<artifactId>springside-extension</artifactId>
+				<groupId>com.sxj</groupId>
+				<artifactId>spring-extension</artifactId>
 				<version>${springside.version}</version>
 				<classifier>tests</classifier>
 				<scope>test</scope>
@@ -973,7 +973,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
-							<groups>org.springside.modules.test.category.Smoke</groups>
+							<groups>com.sxj.spring.modules.test.category.Smoke</groups>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -989,7 +989,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
-							<excludedGroups>org.springside.modules.test.category.UnStable</excludedGroups>
+							<excludedGroups>com.sxj.spring.modules.test.category.UnStable</excludedGroups>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -1007,7 +1007,7 @@
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-surefire-plugin</artifactId>
 						<configuration>
-							<includedGroups>org.springside.modules.test.category.UnStable</includedGroups>
+							<includedGroups>com.sxj.spring.modules.test.category.UnStable</includedGroups>
 						</configuration>
 					</plugin>
 				</plugins>
@@ -1018,7 +1018,7 @@
 		<repository>
 			<id>release</id>
 			<name>Local Nexus Repository</name>
-			<url>http://192.168.1.11:8080/nexus/content/repositories/releases/</url>
+			<url>http://192.168.1.11:8080/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>

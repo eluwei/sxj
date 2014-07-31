@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.collection;
+package com.sxj.spring.examples.showcase.demos.utilities.collection;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Map;
 
 import org.junit.Test;
-import org.springside.examples.showcase.entity.User;
-import org.springside.modules.utils.Collections3;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.modules.utils.Collections3;
 
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
