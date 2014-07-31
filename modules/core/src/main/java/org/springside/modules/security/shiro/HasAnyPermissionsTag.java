@@ -39,4 +39,10 @@ public class HasAnyPermissionsTag extends PermissionTag {
 		return hasAnyPermission;
 	}
 
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return super.getName();
+	}
+
 }
