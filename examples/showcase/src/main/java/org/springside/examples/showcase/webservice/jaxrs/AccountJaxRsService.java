@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.webservice.jaxrs;
+package com.sxj.spring.examples.showcase.webservice.jaxrs;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
@@ -16,11 +16,11 @@ import javax.ws.rs.core.Response.Status;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.service.AccountEffectiveService;
-import org.springside.examples.showcase.webservice.rest.UserDTO;
-import org.springside.modules.mapper.BeanMapper;
-import org.springside.modules.web.MediaTypes;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.service.AccountEffectiveService;
+import com.sxj.spring.examples.showcase.webservice.rest.UserDTO;
+import com.sxj.spring.modules.mapper.BeanMapper;
+import com.sxj.spring.modules.web.MediaTypes;
 
 /**
  * cxf在web.xml侦听/cxf, 在applicationContext.xml里侦听/jaxrx，完整访问路径为 /cxf/jaxrs/user/1.xml

@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.jms.simple;
+package com.sxj.spring.examples.showcase.demos.jms.simple;
 
 import javax.jms.MapMessage;
 import javax.jms.Message;
@@ -12,7 +12,7 @@ import javax.jms.MessageListener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springside.examples.showcase.demos.utilities.email.SimpleMailService;
+import com.sxj.spring.examples.showcase.demos.utilities.email.SimpleMailService;
 
 /**
  * 消息的异步被动接收者.

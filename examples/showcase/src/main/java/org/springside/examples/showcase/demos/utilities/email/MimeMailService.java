@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.email;
+package com.sxj.spring.examples.showcase.demos.utilities.email;
 
 import java.io.File;
 import java.io.IOException;

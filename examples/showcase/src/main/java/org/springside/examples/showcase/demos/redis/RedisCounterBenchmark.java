@@ -3,12 +3,12 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.redis;
+package com.sxj.spring.examples.showcase.demos.redis;
 
-import org.springside.modules.nosql.redis.JedisTemplate;
-import org.springside.modules.nosql.redis.JedisUtils;
-import org.springside.modules.test.benchmark.BenchmarkTask;
-import org.springside.modules.test.benchmark.ConcurrentBenchmark;
+import com.sxj.spring.modules.nosql.redis.JedisTemplate;
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.test.benchmark.BenchmarkTask;
+import com.sxj.spring.modules.test.benchmark.ConcurrentBenchmark;
 
 import redis.clients.jedis.JedisPool;
 

@@ -3,9 +3,9 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.redis;
+package com.sxj.spring.examples.showcase.demos.redis;
 
-import org.springside.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
 
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;

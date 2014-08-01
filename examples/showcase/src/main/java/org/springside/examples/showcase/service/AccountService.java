@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.service;
+package com.sxj.spring.examples.showcase.service;
 
 import java.util.List;
 import java.util.Map;
@@ -17,18 +17,18 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springside.examples.showcase.demos.jms.simple.NotifyMessageProducer;
-import org.springside.examples.showcase.demos.jmx.ApplicationStatistics;
-import org.springside.examples.showcase.entity.Role;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.repository.jpa.RoleDao;
-import org.springside.examples.showcase.repository.jpa.UserDao;
-import org.springside.examples.showcase.service.ShiroDbRealm.ShiroUser;
-import org.springside.modules.persistence.DynamicSpecifications;
-import org.springside.modules.persistence.Hibernates;
-import org.springside.modules.persistence.SearchFilter;
-import org.springside.modules.security.utils.Digests;
-import org.springside.modules.utils.Encodes;
+import com.sxj.spring.examples.showcase.demos.jms.simple.NotifyMessageProducer;
+import com.sxj.spring.examples.showcase.demos.jmx.ApplicationStatistics;
+import com.sxj.spring.examples.showcase.entity.Role;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.repository.jpa.RoleDao;
+import com.sxj.spring.examples.showcase.repository.jpa.UserDao;
+import com.sxj.spring.examples.showcase.service.ShiroDbRealm.ShiroUser;
+import com.sxj.spring.modules.persistence.DynamicSpecifications;
+import com.sxj.spring.modules.persistence.Hibernates;
+import com.sxj.spring.modules.persistence.SearchFilter;
+import com.sxj.spring.modules.security.utils.Digests;
+import com.sxj.spring.modules.utils.Encodes;
 
 import com.google.common.collect.Maps;
 

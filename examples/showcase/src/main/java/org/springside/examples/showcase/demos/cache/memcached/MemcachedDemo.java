@@ -12,10 +12,10 @@ import java.util.Map;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
-import org.springside.modules.cache.memcached.SpyMemcachedClient;
-import org.springside.modules.test.spring.SpringContextTestCase;
 
 import com.google.common.collect.Lists;
+import com.sxj.spring.modules.cache.memcached.SpyMemcachedClient;
+import com.sxj.spring.modules.test.spring.SpringContextTestCase;
 
 @ContextConfiguration(locations = { "/cache/applicationContext-memcached.xml", "/applicationContext.xml" })
 public class MemcachedDemo extends SpringContextTestCase {

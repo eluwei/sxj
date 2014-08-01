@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.hystrix.service;
+package com.sxj.spring.examples.showcase.demos.hystrix.service;
 
 import java.util.HashMap;
 
@@ -12,7 +12,7 @@ import javax.annotation.PostConstruct;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-import org.springside.examples.showcase.webservice.rest.UserDTO;
+import com.sxj.spring.examples.showcase.webservice.rest.UserDTO;
 
 import com.netflix.hystrix.HystrixCircuitBreaker;
 import com.netflix.hystrix.HystrixCommand.Setter;

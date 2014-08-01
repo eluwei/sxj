@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.quickstart.functional.gui;
+package com.sxj.spring.examples.quickstart.functional.gui;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -13,8 +13,8 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.springside.examples.quickstart.functional.BaseSeleniumTestCase;
-import org.springside.modules.test.category.Smoke;
+import com.sxj.spring.examples.quickstart.functional.BaseSeleniumTestCase;
+import com.sxj.spring.modules.test.category.Smoke;
 
 public class UserAdminFT extends BaseSeleniumTestCase {
 

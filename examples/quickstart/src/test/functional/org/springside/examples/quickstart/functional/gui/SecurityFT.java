@@ -3,13 +3,13 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.quickstart.functional.gui;
+package com.sxj.spring.examples.quickstart.functional.gui;
 
 import static org.assertj.core.api.Assertions.*;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.springside.examples.quickstart.functional.BaseSeleniumTestCase;
+import com.sxj.spring.examples.quickstart.functional.BaseSeleniumTestCase;
 
 /**
  * 系统安全控制的功能测试, 测试主要用户故事.

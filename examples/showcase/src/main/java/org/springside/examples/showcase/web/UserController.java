@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.web;
+package com.sxj.spring.examples.showcase.web;
 
 import java.util.List;
 import java.util.Map;
@@ -26,10 +26,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import org.springside.examples.showcase.entity.Role;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.service.AccountService;
-import org.springside.modules.web.Servlets;
+import com.sxj.spring.examples.showcase.entity.Role;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.service.AccountService;
+import com.sxj.spring.modules.web.Servlets;
 
 import com.google.common.collect.Maps;
 

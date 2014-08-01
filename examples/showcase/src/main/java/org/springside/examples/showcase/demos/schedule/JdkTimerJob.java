@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.schedule;
+package com.sxj.spring.examples.showcase.demos.schedule;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -15,7 +15,7 @@ import javax.annotation.PreDestroy;
 import org.apache.commons.lang3.Validate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.support.TaskUtils;
-import org.springside.modules.utils.Threads;
+import com.sxj.spring.modules.utils.Threads;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
 

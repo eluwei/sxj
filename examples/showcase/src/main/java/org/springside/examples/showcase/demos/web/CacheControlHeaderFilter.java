@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.web;
+package com.sxj.spring.examples.showcase.demos.web;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletResponse;
 
-import org.springside.modules.web.Servlets;
+import com.sxj.spring.modules.web.Servlets;
 
 /**
  * 为Response设置客户端缓存控制Header的Filter.
@@ -25,7 +25,7 @@ import org.springside.modules.web.Servlets;
  * <pre>
  * 	<filter>
  * 		<filter-name>cacheControlHeaderFilter</filter-name>
- * 		<filter-class>org.springside.modules.web.CacheControlHeaderFilter</filter-class>
+ * 		<filter-class>com.sxj.spring.modules.web.CacheControlHeaderFilter</filter-class>
  * 		<init-param>
  * 			<param-name>expiresSeconds</param-name>
  * 			<param-value>31536000</param-value>

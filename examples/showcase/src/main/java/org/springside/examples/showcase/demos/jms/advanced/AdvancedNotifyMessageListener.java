@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.jms.advanced;
+package com.sxj.spring.examples.showcase.demos.jms.advanced;
 
 import javax.jms.MapMessage;
 import javax.jms.Message;

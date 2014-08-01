@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springside</groupId>
-		<artifactId>springside-parent</artifactId>
-		<version>4.2.3-SNAPSHOT</version>
+		<groupId>com.sxj</groupId>
+		<artifactId>spring-parent</artifactId>
+		<version>4.2.3</version>
 		<relativePath>../parent/</relativePath>
 	</parent>
-	<artifactId>springside-core</artifactId>
+	<artifactId>spring-core</artifactId>
 	<packaging>jar</packaging>
 	<name>Springside :: Module :: Core</name>
 
@@ -24,7 +24,7 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<optional>true</optional>
 		</dependency>
-		<!-- PERSISTENCE end -->
+		<!-- PERSISTENCE end -->  
 
 		<!-- Security begin -->
 		<dependency>
@@ -223,11 +223,11 @@
 						</goals>
 						<configuration>
 							<includes>
-								<include>org/springside/modules/test/**/*.class</include>
+								<include>com/sxj/spring/modules/test/**/*.class</include>
 								<include>jetty/webdefault-windows.xml</include>
 							</includes>
 							<excludes>
-								<exclude>org/springside/modules/test/**/*Test.class</exclude>
+								<exclude>com/sxj/spring/modules/test/**/*Test.class</exclude>
 							</excludes>
 						</configuration>
 					</execution>

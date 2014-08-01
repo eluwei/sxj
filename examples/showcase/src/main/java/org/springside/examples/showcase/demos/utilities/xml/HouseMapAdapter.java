@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.utilities.xml;
+package com.sxj.spring.examples.showcase.demos.utilities.xml;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.XmlValue;
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 
-import org.springside.examples.showcase.demos.utilities.xml.HouseMapAdapter.HouseMap.HouseEntry;
+import com.sxj.spring.examples.showcase.demos.utilities.xml.HouseMapAdapter.HouseMap.HouseEntry;
 
 import com.google.common.collect.Maps;
 

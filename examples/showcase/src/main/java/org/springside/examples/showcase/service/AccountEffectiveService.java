@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.service;
+package com.sxj.spring.examples.showcase.service;
 
 import java.util.List;
 import java.util.Map;
@@ -12,15 +12,15 @@ import org.javasimon.aop.Monitored;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import org.springside.examples.showcase.demos.cache.memcached.MemcachedObjectType;
-import org.springside.examples.showcase.entity.Team;
-import org.springside.examples.showcase.entity.User;
-import org.springside.examples.showcase.repository.mybatis.TeamMybatisDao;
-import org.springside.examples.showcase.repository.mybatis.UserMybatisDao;
-import org.springside.modules.cache.memcached.SpyMemcachedClient;
-import org.springside.modules.mapper.JsonMapper;
+import com.sxj.spring.examples.showcase.demos.cache.memcached.MemcachedObjectType;
+import com.sxj.spring.examples.showcase.entity.Team;
+import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.repository.mybatis.TeamMybatisDao;
+import com.sxj.spring.examples.showcase.repository.mybatis.UserMybatisDao;
+import com.sxj.spring.modules.mapper.JsonMapper;
 
 import com.google.common.collect.Maps;
+import com.sxj.spring.modules.cache.memcached.SpyMemcachedClient;
 
 /**
  * 更高效的AccountService实现，基于MyBatis + Memcached的方案，以JSON格式存储Memcached中的内容。

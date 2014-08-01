@@ -3,17 +3,18 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.redis.job.producer;
+package com.sxj.spring.examples.showcase.demos.redis.job.producer;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import org.springside.examples.showcase.demos.redis.JedisPoolFactory;
-import org.springside.examples.showcase.demos.redis.job.dispatcher.SimpleJobDispatcherDemo;
-import org.springside.modules.nosql.redis.JedisUtils;
-import org.springside.modules.nosql.redis.scheduler.JobProducer;
-import org.springside.modules.test.benchmark.BenchmarkTask;
-import org.springside.modules.test.benchmark.ConcurrentBenchmark;
+import com.sxj.spring.examples.showcase.demos.redis.JedisPoolFactory;
+import com.sxj.spring.examples.showcase.demos.redis.job.dispatcher.SimpleJobDispatcherDemo;
+
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.nosql.redis.scheduler.JobProducer;
+import com.sxj.spring.modules.test.benchmark.BenchmarkTask;
+import com.sxj.spring.modules.test.benchmark.ConcurrentBenchmark;
 
 import redis.clients.jedis.JedisPool;
 

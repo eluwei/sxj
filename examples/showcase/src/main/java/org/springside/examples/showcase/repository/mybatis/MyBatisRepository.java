@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.repository.mybatis;
+package com.sxj.spring.examples.showcase.repository.mybatis;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

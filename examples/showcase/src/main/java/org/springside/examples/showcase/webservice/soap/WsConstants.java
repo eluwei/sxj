@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.webservice.soap;
+package com.sxj.spring.examples.showcase.webservice.soap;
 
 /**
  * WebService常量定义.

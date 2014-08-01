@@ -10,11 +10,12 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import org.springside.examples.showcase.demos.redis.JedisPoolFactory;
-import org.springside.modules.nosql.redis.JedisUtils;
-import org.springside.modules.nosql.redis.scheduler.AdvancedJobConsumer;
-import org.springside.modules.nosql.redis.scheduler.SimpleJobConsumer;
-import org.springside.modules.test.benchmark.ConcurrentBenchmark;
 import org.springside.modules.utils.Threads;
+
+import com.sxj.spring.modules.nosql.redis.JedisUtils;
+import com.sxj.spring.modules.nosql.redis.scheduler.AdvancedJobConsumer;
+import com.sxj.spring.modules.nosql.redis.scheduler.SimpleJobConsumer;
+import com.sxj.spring.modules.test.benchmark.ConcurrentBenchmark;
 
 /**
  * 多线程运行reliable的JobConsumer，从"ss.job:ready" list中popup job进行处理。

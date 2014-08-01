@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.webservice.soap.response.dto;
+package com.sxj.spring.examples.showcase.webservice.soap.response.dto;
 
 import java.util.List;
 
@@ -13,7 +13,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.springside.examples.showcase.webservice.soap.WsConstants;
+import com.sxj.spring.examples.showcase.webservice.soap.WsConstants;
 
 import com.google.common.collect.Lists;
 

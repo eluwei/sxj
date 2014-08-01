@@ -3,16 +3,16 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.quickstart.functional;
+package com.sxj.spring.examples.quickstart.functional;
 
 import org.junit.BeforeClass;
 import org.junit.Rule;
 import org.junit.rules.TestRule;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.springside.modules.test.selenium.Selenium2;
-import org.springside.modules.test.selenium.SeleniumSnapshotRule;
-import org.springside.modules.test.selenium.WebDriverFactory;
+import com.sxj.spring.modules.test.selenium.Selenium2;
+import com.sxj.spring.modules.test.selenium.SeleniumSnapshotRule;
+import com.sxj.spring.modules.test.selenium.WebDriverFactory;
 
 /**
  * 使用Selenium的功能测试基类.

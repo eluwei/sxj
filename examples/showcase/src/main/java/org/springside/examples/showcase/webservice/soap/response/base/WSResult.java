@@ -3,11 +3,11 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.webservice.soap.response.base;
+package com.sxj.spring.examples.showcase.webservice.soap.response.base;
 
 import javax.xml.bind.annotation.XmlType;
 
-import org.springside.examples.showcase.webservice.soap.WsConstants;
+import com.sxj.spring.examples.showcase.webservice.soap.WsConstants;
 
 /**
  * WebService返回结果基类,定义所有返回码.

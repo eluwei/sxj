@@ -3,20 +3,20 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springside</groupId>
-		<artifactId>springside-parent</artifactId>
-		<version>4.2.3-SNAPSHOT</version>
+		<groupId>com.sxj</groupId>
+		<artifactId>spring-parent</artifactId>
+		<version>4.2.3</version>
 		<relativePath>../parent/</relativePath>
 	</parent>
-	<artifactId>springside-extension</artifactId>
+	<artifactId>spring-extension</artifactId>
 	<packaging>jar</packaging>
 	<name>Springside :: Module :: Extension</name>
 
 	<dependencies>
 		<!-- SPRINGSIDE -->
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-core</artifactId>
 		</dependency>
 		<!-- SPRING -->
 		<dependency>
@@ -84,8 +84,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springside</groupId>
-			<artifactId>springside-core</artifactId>
+			<groupId>com.sxj</groupId>
+			<artifactId>spring-core</artifactId>
 			<classifier>tests</classifier>
 		</dependency>
 
@@ -160,10 +160,10 @@
 						</goals>
 						<configuration>
 							<includes>
-								<include>org/springside/modules/test/**/*.class</include>
+								<include>com/sxj/spring/modules/test/**/*.class</include>
 							</includes>
 							<excludes>
-								<exclude>org/springside/modules/test/**/*Test.class</exclude>
+								<exclude>com/sxj/spring/modules/test/**/*Test.class</exclude>
 							</excludes>
 						</configuration>
 					</execution>

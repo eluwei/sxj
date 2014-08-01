@@ -3,5 +3,5 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd"
 	default-lazy-init="true">
 
-	<bean id="greenmail" class="org.springside.modules.test.mail.MailServerSimulator"/>	
+	<bean id="greenmail" class="com.sxj.spring.modules.test.mail.MailServerSimulator"/>	
 </beans>

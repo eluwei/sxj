@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.quickstart.functional.rest;
+package com.sxj.spring.examples.quickstart.functional.rest;
 
 import static org.assertj.core.api.Assertions.*;
 
@@ -17,11 +17,12 @@ import org.junit.experimental.categories.Category;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
-import org.springside.examples.quickstart.data.TaskData;
-import org.springside.examples.quickstart.entity.Task;
-import org.springside.examples.quickstart.functional.BaseFunctionalTestCase;
-import org.springside.modules.mapper.JsonMapper;
-import org.springside.modules.test.category.Smoke;
+import com.sxj.spring.examples.quickstart.functional.BaseFunctionalTestCase;
+import com.sxj.spring.modules.mapper.JsonMapper;
+import com.sxj.spring.modules.test.category.Smoke;
+
+import com.sxj.spring.examples.quickstart.data.TaskData;
+import com.sxj.spring.examples.quickstart.entity.Task;
 
 /**
  * 任务管理的功能测试, 测试页面JavaScript及主要用户故事流程.

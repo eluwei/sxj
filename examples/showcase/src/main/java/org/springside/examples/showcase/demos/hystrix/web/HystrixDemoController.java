@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.demos.hystrix.web;
+package com.sxj.spring.examples.showcase.demos.hystrix.web;
 
 import java.util.Map;
 
@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springside.examples.showcase.demos.hystrix.dependency.DependencyResourceController;
-import org.springside.examples.showcase.demos.hystrix.service.UserService;
-import org.springside.examples.showcase.webservice.rest.UserDTO;
-import org.springside.modules.web.MediaTypes;
+import com.sxj.spring.examples.showcase.demos.hystrix.dependency.DependencyResourceController;
+import com.sxj.spring.examples.showcase.demos.hystrix.service.UserService;
+import com.sxj.spring.examples.showcase.webservice.rest.UserDTO;
+import com.sxj.spring.modules.web.MediaTypes;
 
 import com.google.common.collect.Maps;
 
