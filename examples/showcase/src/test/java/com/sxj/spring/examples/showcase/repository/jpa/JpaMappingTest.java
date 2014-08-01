@@ -5,7 +5,7 @@
  *******************************************************************************/
 package com.sxj.spring.examples.showcase.repository.jpa;
 
-import static org.assertj.core.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
@@ -25,23 +25,28 @@ import com.sxj.spring.modules.test.spring.SpringTransactionalTestCase;
 @ContextConfiguration(locations = { "/applicationContext.xml" })
 // 如果存在多个transactionManager，可以需显式指定
 @TransactionConfiguration(transactionManager = "transactionManager")
-public class JpaMappingTest extends SpringTransactionalTestCase {
-
-	private static Logger logger = LoggerFactory.getLogger(JpaMappingTest.class);
-
-	@PersistenceContext
-	private EntityManager em;
-
-	@Test
-	public void allClassMapping() throws Exception {
-		Metamodel model = em.getEntityManagerFactory().getMetamodel();
-
-		assertThat(model.getEntities()).as("No entity mapping found").isNotEmpty();
-
-		for (EntityType entityType : model.getEntities()) {
-			String entityName = entityType.getName();
-			em.createQuery("select o from " + entityName + " o").getResultList();
-			logger.info("ok: " + entityName);
-		}
-	}
+public class JpaMappingTest extends SpringTransactionalTestCase
+{
+    
+    private static Logger logger = LoggerFactory.getLogger(JpaMappingTest.class);
+    
+    @PersistenceContext
+    private EntityManager em;
+    
+    @Test
+    public void allClassMapping() throws Exception
+    {
+        Metamodel model = em.getEntityManagerFactory().getMetamodel();
+        
+        assertThat(model.getEntities()).as("No entity mapping found")
+                .isNotEmpty();
+        
+        for (EntityType entityType : model.getEntities())
+        {
+            String entityName = entityType.getName();
+            em.createQuery("select o from " + entityName + " o")
+                    .getResultList();
+            logger.info("ok: " + entityName);
+        }
+    }
 }

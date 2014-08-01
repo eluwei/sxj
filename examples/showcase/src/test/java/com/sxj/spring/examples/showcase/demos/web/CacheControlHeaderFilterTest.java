@@ -17,6 +17,8 @@ import org.springframework.mock.web.MockFilterConfig;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
 
+import com.sxj.spring.examples.showcase.demos.web.CacheControlHeaderFilter;
+
 public class CacheControlHeaderFilterTest {
 	@Test
 	public void test() throws IOException, ServletException {
