@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional.soap;
+package com.sxj.spring.examples.showcase.functional.soap;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -15,10 +15,10 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.TestExecutionListeners;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.support.DependencyInjectionTestExecutionListener;
-import org.springside.examples.showcase.functional.BaseFunctionalTestCase;
 
 import com.sxj.spring.examples.showcase.data.UserData;
 import com.sxj.spring.examples.showcase.entity.User;
+import com.sxj.spring.examples.showcase.functional.BaseFunctionalTestCase;
 import com.sxj.spring.examples.showcase.webservice.soap.AccountSoapService;
 import com.sxj.spring.examples.showcase.webservice.soap.response.GetUserResult;
 import com.sxj.spring.examples.showcase.webservice.soap.response.SearchUserResult;

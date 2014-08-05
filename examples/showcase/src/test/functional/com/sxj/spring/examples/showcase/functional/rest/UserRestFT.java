@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional.rest;
+package com.sxj.spring.examples.showcase.functional.rest;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.fail;
@@ -26,9 +26,9 @@ import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.web.client.HttpStatusCodeException;
 import org.springframework.web.client.RestTemplate;
-import org.springside.examples.showcase.functional.BaseFunctionalTestCase;
 
 import com.google.common.collect.Lists;
+import com.sxj.spring.examples.showcase.functional.BaseFunctionalTestCase;
 import com.sxj.spring.examples.showcase.webservice.rest.UserDTO;
 import com.sxj.spring.modules.test.category.Smoke;
 import com.sxj.spring.modules.web.Servlets;

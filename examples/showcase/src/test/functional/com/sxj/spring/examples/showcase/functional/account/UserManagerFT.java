@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional.account;
+package com.sxj.spring.examples.showcase.functional.account;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -11,8 +11,8 @@ import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.springside.examples.showcase.functional.BaseSeleniumTestCase;
 
+import com.sxj.spring.examples.showcase.functional.BaseSeleniumTestCase;
 import com.sxj.spring.modules.test.category.Smoke;
 
 /**

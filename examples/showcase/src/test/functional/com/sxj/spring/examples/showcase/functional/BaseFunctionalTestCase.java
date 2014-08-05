@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional;
+package com.sxj.spring.examples.showcase.functional;
 
 import java.net.URL;
 import java.sql.Driver;

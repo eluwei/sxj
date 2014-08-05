@@ -3,7 +3,7 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional.soap;
+package com.sxj.spring.examples.showcase.functional.soap;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -16,8 +16,8 @@ import org.apache.cxf.transport.http.HTTPConduit;
 import org.apache.cxf.transports.http.configuration.HTTPClientPolicy;
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
-import org.springside.examples.showcase.functional.BaseFunctionalTestCase;
 
+import com.sxj.spring.examples.showcase.functional.BaseFunctionalTestCase;
 import com.sxj.spring.examples.showcase.webservice.soap.AccountSoapService;
 import com.sxj.spring.examples.showcase.webservice.soap.response.GetTeamDetailResult;
 import com.sxj.spring.modules.test.category.Smoke;

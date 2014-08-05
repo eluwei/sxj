@@ -3,13 +3,14 @@
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  *******************************************************************************/
-package org.springside.examples.showcase.functional.ajax;
+package com.sxj.spring.examples.showcase.functional.ajax;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.springside.examples.showcase.functional.BaseSeleniumTestCase;
+
+import com.sxj.spring.examples.showcase.functional.BaseSeleniumTestCase;
 
 /**
  * 测试Ajax Mashup.
