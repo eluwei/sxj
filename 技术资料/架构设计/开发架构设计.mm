@@ -25,6 +25,13 @@
 <node CREATED="1406885046082" ID="ID_555582957" MODIFIED="1406885081536" TEXT="static.menchuang.org.cn"/>
 </node>
 </node>
-<node CREATED="1407134585153" ID="ID_710020413" MODIFIED="1407134595980" POSITION="left" TEXT="&#x4f9b;&#x5e94;&#x94fe;&#x7ba1;&#x7406;&#x5b50;&#x7cfb;&#x7edf;&#x5de5;&#x7a0b;&#x7ed3;&#x6784;"/>
+<node CREATED="1407134585153" ID="ID_710020413" MODIFIED="1407134595980" POSITION="left" TEXT="&#x4f9b;&#x5e94;&#x94fe;&#x7ba1;&#x7406;&#x5b50;&#x7cfb;&#x7edf;&#x5de5;&#x7a0b;&#x7ed3;&#x6784;">
+<node CREATED="1407374733763" ID="ID_1444357321" MODIFIED="1407374907901" TEXT="supervisor-parent&#xff08;&#x4e3b;&#x5de5;&#x7a0b;&#xff09;">
+<node CREATED="1407374744672" ID="ID_1593485954" MODIFIED="1407374750152" TEXT="supervisor-manager"/>
+</node>
+<node CREATED="1407374754105" ID="ID_1947021275" MODIFIED="1407374883496" TEXT="jsonrpc-parent&#xff08;json&#x8fdc;&#x7a0b;&#x8c03;&#x7528;&#xff09;"/>
+<node CREATED="1407374765113" ID="ID_471325987" MODIFIED="1407374892941" TEXT="statemachine-parent&#xff08;&#x6709;&#x9650;&#x72b6;&#x6001;&#x673a;&#xff09;"/>
+<node CREATED="1407374776807" ID="ID_1339147129" MODIFIED="1407374900347" TEXT="mybatis-parent&#xff08;mybatis&#x5c01;&#x88c5;&#xff09;"/>
+</node>
 </node>
 </map>
