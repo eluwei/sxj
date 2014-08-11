@@ -1,0 +1,385 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>&#31169;&#20139;&#23478;&#26381;&#21153;&#22120;&#35268;&#21010;</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>&#31169;&#20139;&#23478;&#26381;&#21153;&#22120;&#35268;&#21010;
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+&#29289;&#29702;&#26426;
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>192.168.1.13&#65288;&#27979;&#35797;&#26381;&#21153;&#22120;1&#65289;
+<ul><li>Jetty
+
+</li>
+<li>Tomcat
+
+</li>
+<li>redis
+
+</li>
+
+</ul>
+</li>
+<li>192.168.1.14&#65288;&#27979;&#35797;&#26381;&#21153;&#22120;2&#65289;
+<ul><li>Jetty
+
+</li>
+<li>Tomcat
+
+</li>
+<li>redis
+
+</li>
+<li>Ngnix
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&#34394;&#25311;&#26426;&#65288;Host&#65306;192.168.1.9&#65289;
+<ul><li>192.168.1.10&#65288;&#36807;&#31243;&#31649;&#29702;&#26381;&#21153;&#22120;&#65289;
+<ul><li>&#37197;&#32622;
+<ul><li>&#21452;&#26680;CPU
+
+</li>
+<li>linux&#25805;&#20316;&#31995;&#32479;
+
+</li>
+<li>1G&#20869;&#23384;
+
+</li>
+<li>40G&#30828;&#30424;
+
+</li>
+
+</ul>
+</li>
+<li>&#26381;&#21153;
+<ul><li>&#20135;&#21697;SVN
+<ul><li>svn://192.168.1.10:3391
+
+</li>
+<li>svnserve -d -r /home/scm/svn/sxj --listen-port=3391
+
+</li>
+
+</ul>
+</li>
+<li>&#24320;&#21457;Git
+<ul><li>scm@192.168.1.10:/home/scm/repositories/sxj.git
+
+</li>
+<li>scm/scm
+
+</li>
+
+</ul>
+</li>
+<li>Bugzilla
+
+</li>
+<li>Trac
+<ul><li>http://192.168.1.10:8000/sxj
+
+</li>
+<li>admin/admin123
+
+</li>
+<li>nohup tracd --port 8000 --auth=sxj,/home/scm/trac/sxj/passwords.txt,trac /home/scm/trac/sxj &amp;
+
+</li>
+<li>&#26032;&#22686;&#29992;&#25143;
+<ul><li>python trac-password.py -u $username -p $password &gt;&gt; /home/scm/trac/sxj/passwords.txt
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>root/scm10centos
+
+</li>
+<li>scm/scm
+
+</li>
+
+</ul>
+</li>
+<li>192.168.1.11&#65288;&#25345;&#32493;&#38598;&#25104;&#26381;&#21153;&#22120;&#65289;
+<ul><li>&#37197;&#32622;
+<ul><li>4&#26680;CPU
+
+</li>
+<li>linux&#25805;&#20316;&#31995;&#32479;
+
+</li>
+<li>2G&#20869;&#23384;
+
+</li>
+<li>60G&#30828;&#30424;
+
+</li>
+
+</ul>
+</li>
+<li>&#26381;&#21153;
+<ul><li>Jenkins
+<ul><li>http://192.168.1.11:8080/jenkins
+
+</li>
+
+</ul>
+</li>
+<li>maven
+<ul><li>http://192.168.1.11:8080/nexus
+
+</li>
+
+</ul>
+</li>
+<li>Email
+
+</li>
+<li>FTP
+<ul><li>ftp://192.168.1.11
+
+</li>
+<li>devftp/devftp
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>root/ci11centos
+
+</li>
+<li>ci/ci
+
+</li>
+
+</ul>
+</li>
+<li>192.168.1.12&#65288;&#25968;&#25454;&#24211;&#26381;&#21153;&#22120;&#65289;
+<ul><li>&#37197;&#32622;
+<ul><li>4&#26680;CPU
+
+</li>
+<li>linux&#25805;&#20316;&#31995;&#32479;
+
+</li>
+<li>4G&#20869;&#23384;
+
+</li>
+<li>80G&#30828;&#30424;
+
+</li>
+
+</ul>
+</li>
+<li>&#26381;&#21153;
+<ul><li>MySQL
+<ul><li>root/sxjdb12centos
+
+</li>
+
+</ul>
+</li>
+<li>MangoDB
+
+</li>
+
+</ul>
+</li>
+<li>root/db12centos
+
+</li>
+<li>mysql/mysql
+
+</li>
+
+</ul>
+</li>
+<li>192.168.1.13&#65288;FastDFS/redis&#26381;&#21153;&#22120;&#65289;
+<ul><li>&#37197;&#32622;
+<ul><li>&#21452;&#26680;CPU
+
+</li>
+<li>centos-win64
+
+</li>
+<li>2G&#20869;&#23384;
+
+</li>
+<li>50G&#30828;&#30424;
+
+</li>
+
+</ul>
+</li>
+<li>&#26381;&#21153;
+<ul><li>FastDFS
+
+</li>
+<li>redis
+
+</li>
+
+</ul>
+</li>
+<li>root/dfs13centos
+
+</li>
+<li>dfs/dfs
+
+</li>
+
+</ul>
+</li>
+<li>administrator/vmserver9
+
+</li>
+
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>

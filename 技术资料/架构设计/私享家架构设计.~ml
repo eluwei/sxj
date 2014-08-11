@@ -11879,13 +11879,69 @@
 <XPD:REF name="Views[0]">K4WJ7AcHske+aukoaABd3wAA</XPD:REF>
 <XPD:ATTR name="#ClientDependencies" type="integer">1</XPD:ATTR>
 <XPD:REF name="ClientDependencies[0]">M1RncHUKjUWQwOvsBmdqEwAA</XPD:REF>
-<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLModel" guid="ELvzBlIG9E2voGfozbYp/wAA">
 <XPD:ATTR name="Name" type="string">会员管理业务层</XPD:ATTR>
 <XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLModel" guid="4UP49GQpYk2lRd7QkcPI2wAA">
 <XPD:ATTR name="Name" type="string">合同管理业务层</XPD:ATTR>
+<XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLClassDiagram" guid="w8ciiAsFyEiE41JLQYPx4AAA">
+<XPD:ATTR name="Name" type="string">合同管理业务层</XPD:ATTR>
+<XPD:REF name="DiagramOwner">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="wpAYK3t+lUaUsbemf1HWbQAA">
+<XPD:REF name="Diagram">w8ciiAsFyEiE41JLQYPx4AAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLInterfaceView" guid="a0wcMqjxykGZX3/ayAO+jAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">72</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">60</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">120</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">46</XPD:ATTR>
+<XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkIcon</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="scQUkV8oCkaZuP8hPygFqwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="9lMtMWOKwEGtUCwEUs9ZYgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">IContractService</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="CX1P0iG69kqtpVFyKk/9gAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="oDgRaMv3iUelAvpPkDtLTgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="P49JNHIpyk+DsPCxJSgYMQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="YhA0Jq+3eEuEwm+bE3aomQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLInterface" guid="VfEgGXRSD0KwVRneoV6/qAAA">
+<XPD:ATTR name="Name" type="string">IContractService</XPD:ATTR>
+<XPD:REF name="Namespace">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">3</XPD:ATTR>
+<XPD:REF name="Views[0]">a0wcMqjxykGZX3/ayAO+jAAA</XPD:REF>
+<XPD:REF name="Views[1]">P49JNHIpyk+DsPCxJSgYMQAA</XPD:REF>
+<XPD:REF name="Views[2]">YhA0Jq+3eEuEwm+bE3aomQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="x4Mx+Ou5kkaWfu1w0N5FZQAA">
+<XPD:ATTR name="Name" type="string">ContractModel</XPD:ATTR>
+<XPD:REF name="Namespace">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLModel" guid="B6lE44m6k0ytui93d3LrlgAA">
+<XPD:ATTR name="Name" type="string">备案管理业务层</XPD:ATTR>
 <XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">2</XPD:ATTR>
@@ -11912,8 +11968,8 @@
 <XPD:OBJ name="OwnedViews[0]" type="UMLInterfaceView" guid="Rs1BxTmB50WX61/FLKKz+wAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">140</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">84</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">124</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">64</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">97</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">46</XPD:ATTR>
 <XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkIcon</XPD:ATTR>
