@@ -11879,13 +11879,69 @@
 <XPD:REF name="Views[0]">K4WJ7AcHske+aukoaABd3wAA</XPD:REF>
 <XPD:ATTR name="#ClientDependencies" type="integer">1</XPD:ATTR>
 <XPD:REF name="ClientDependencies[0]">M1RncHUKjUWQwOvsBmdqEwAA</XPD:REF>
-<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLModel" guid="ELvzBlIG9E2voGfozbYp/wAA">
 <XPD:ATTR name="Name" type="string">会员管理业务层</XPD:ATTR>
 <XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLModel" guid="4UP49GQpYk2lRd7QkcPI2wAA">
 <XPD:ATTR name="Name" type="string">合同管理业务层</XPD:ATTR>
+<XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLClassDiagram" guid="w8ciiAsFyEiE41JLQYPx4AAA">
+<XPD:ATTR name="Name" type="string">合同管理业务层</XPD:ATTR>
+<XPD:REF name="DiagramOwner">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="wpAYK3t+lUaUsbemf1HWbQAA">
+<XPD:REF name="Diagram">w8ciiAsFyEiE41JLQYPx4AAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLInterfaceView" guid="a0wcMqjxykGZX3/ayAO+jAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">72</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">60</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">120</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">46</XPD:ATTR>
+<XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkIcon</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="scQUkV8oCkaZuP8hPygFqwAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="9lMtMWOKwEGtUCwEUs9ZYgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">IContractService</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="CX1P0iG69kqtpVFyKk/9gAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="oDgRaMv3iUelAvpPkDtLTgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="P49JNHIpyk+DsPCxJSgYMQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="YhA0Jq+3eEuEwm+bE3aomQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLInterface" guid="VfEgGXRSD0KwVRneoV6/qAAA">
+<XPD:ATTR name="Name" type="string">IContractService</XPD:ATTR>
+<XPD:REF name="Namespace">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">3</XPD:ATTR>
+<XPD:REF name="Views[0]">a0wcMqjxykGZX3/ayAO+jAAA</XPD:REF>
+<XPD:REF name="Views[1]">P49JNHIpyk+DsPCxJSgYMQAA</XPD:REF>
+<XPD:REF name="Views[2]">YhA0Jq+3eEuEwm+bE3aomQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="x4Mx+Ou5kkaWfu1w0N5FZQAA">
+<XPD:ATTR name="Name" type="string">ContractModel</XPD:ATTR>
+<XPD:REF name="Namespace">4UP49GQpYk2lRd7QkcPI2wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[2]" type="UMLModel" guid="B6lE44m6k0ytui93d3LrlgAA">
+<XPD:ATTR name="Name" type="string">备案管理业务层</XPD:ATTR>
 <XPD:REF name="Namespace">3Ui2RXPbfkyr/+HwYsoS+wAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#Associations" type="integer">2</XPD:ATTR>
@@ -12946,6 +13002,7 @@
 <XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="ErkELLW/S0q/IMSwpuvTkgAA">
 <XPD:ATTR name="Name" type="string">addMember</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">新增会员</XPD:ATTR>
 <XPD:REF name="Owner">a19CsO3UO0G3Mpk3Em7MNAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="M+j2Gk45BUqg3H5DQTVciQAA">
@@ -12957,6 +13014,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="Qm4EY238TE+T6g+rFDS6zAAA">
 <XPD:ATTR name="Name" type="string">updateMember</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">更新会员</XPD:ATTR>
 <XPD:REF name="Owner">a19CsO3UO0G3Mpk3Em7MNAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Jwp6cDB7uEKk3Gz3fdsWGgAA">
@@ -12968,6 +13026,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="1fY1BXZ2IUGyh8C9VV/BRgAA">
 <XPD:ATTR name="Name" type="string">getMember</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">获取会员信息</XPD:ATTR>
 <XPD:REF name="Owner">a19CsO3UO0G3Mpk3Em7MNAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="aMlz72lcKk6QwQYJVIn4LgAA">
@@ -12985,6 +13044,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="/QldmEdPgEqGaPfCysv6FgAA">
 <XPD:ATTR name="Name" type="string">deleteMember</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">删除会员</XPD:ATTR>
 <XPD:REF name="Owner">a19CsO3UO0G3Mpk3Em7MNAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="dQigZyiynUWAQe0HI4YQ4AAA">
@@ -12995,6 +13055,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="LQacVqWqsE6GCjruxqZJ2gAA">
 <XPD:ATTR name="Name" type="string">queryMenbers</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">查询会员</XPD:ATTR>
 <XPD:REF name="Owner">a19CsO3UO0G3Mpk3Em7MNAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="sM+ZW6XB1EOzt2TxQhx2vwAA">
@@ -13005,6 +13066,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="fEt7SHFFKkuhpHxn4dhlUwAA">
 <XPD:ATTR name="Name" type="string">memberList</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;MemberEntity&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">LQacVqWqsE6GCjruxqZJ2gAA</XPD:REF>
 </XPD:OBJ>
@@ -13026,108 +13088,126 @@
 <XPD:ATTR name="#Attributes" type="integer">18</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="E1+UBOmgQ0q/7Rede+gccAAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">标识</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="I7vrWKq6VkG4zgBza3mU5gAA">
 <XPD:ATTR name="Name" type="string">name</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">会员名称</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="/kfHxVzB10G+PC0vuS0cPwAA">
 <XPD:ATTR name="Name" type="string">bLicenseNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">营业执照号</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="A9RTf/13I06qG+VBdEBxmwAA">
 <XPD:ATTR name="Name" type="string">type</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">会员类型</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="deS2EoZbAk6S/HfBR28HMwAA">
 <XPD:ATTR name="Name" type="string">area</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">地理区域</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="kBchm79/iUqLScBKQ5c5FgAA">
 <XPD:ATTR name="Name" type="string">contacts</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">联系人名称</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="VriJ3LzOdUeajyAdaMSTSgAA">
 <XPD:ATTR name="Name" type="string">energyNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">节能标识号</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="FxuL1FmmMUepnu9cr1IhXgAA">
 <XPD:ATTR name="Name" type="string">phoneNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">联系人手机</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="ozmRzXmnQEKO/shPQowf6gAA">
 <XPD:ATTR name="Name" type="string">address</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">公司地址</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[9]" type="UMLAttribute" guid="L+ps82NQcUSIlty7evYZ1QAA">
 <XPD:ATTR name="Name" type="string">telNum</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">联系电话</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[10]" type="UMLAttribute" guid="fzJa/gv2d0qbLhbMhTW1JwAA">
 <XPD:ATTR name="Name" type="string">regDate</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">注册日期</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Object</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[11]" type="UMLAttribute" guid="2OYu5kaJmEivBTYYoP/JYgAA">
 <XPD:ATTR name="Name" type="string">authorDate</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">认证日期</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Object</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[12]" type="UMLAttribute" guid="i/bp74rhskSeG8YVi7Dj9gAA">
 <XPD:ATTR name="Name" type="string">state</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">账户状态</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[13]" type="UMLAttribute" guid="Q/yeITjV+UaqPXehWyy/6gAA">
 <XPD:ATTR name="Name" type="string">checkState</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">审核状态</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[14]" type="UMLAttribute" guid="eiap/5VJ1EiGjHtqFKQTAwAA">
 <XPD:ATTR name="Name" type="string">totalAmount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">总交易额</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Long</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[15]" type="UMLAttribute" guid="Zzb3fG7jcEenTSglhCf0jQAA">
 <XPD:ATTR name="Name" type="string">accountNum</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户数目</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[16]" type="UMLAttribute" guid="uV2EFkLRR0Ka0eaddPSkugAA">
 <XPD:ATTR name="Name" type="string">password</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">会员密码</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[17]" type="UMLAttribute" guid="nTyUpo6q4U63NxMWqgSZnAAA">
 <XPD:ATTR name="Name" type="string">memberNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">会员号</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">5qGOYfReb0OPDpsJjYN1PwAA</XPD:REF>
@@ -13149,48 +13229,56 @@
 <XPD:ATTR name="#Attributes" type="integer">8</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="IDTzxcDTY02l2b/ID/L2QwAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">主键标识</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="a4NwJCfEE06TfwArSnBPowAA">
 <XPD:ATTR name="Name" type="string">parentId</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">所属会员ID</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="QXaNF6mDh0y6le37PRr1YQAA">
 <XPD:ATTR name="Name" type="string">accountName</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户名称</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="8RE65XLssUeWe/tu0KSWcgAA">
 <XPD:ATTR name="Name" type="string">name</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">姓名</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="ncoyjZznaU6wXpY+hyUQVAAA">
 <XPD:ATTR name="Name" type="string">state</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户状态</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[5]" type="UMLAttribute" guid="cS637GhGeUSU2YtPgxK4IwAA">
 <XPD:ATTR name="Name" type="string">regDate</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">注册日期</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Object</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[6]" type="UMLAttribute" guid="Z0YWs33Wc0C9DUkieAbNvQAA">
 <XPD:ATTR name="Name" type="string">password</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户密码</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="EdX074zukE6MZCFPcyg3hQAA">
 <XPD:ATTR name="Name" type="string">accountNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户ID</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
@@ -13209,18 +13297,21 @@
 <XPD:ATTR name="#Attributes" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="qAEgCgVCWUiDHuoLQsGNdwAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">主键标识</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">Xy/n9Fy01kmCS06BVjBmwwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="fYXA/NeLE0C3WOmLZhyHfgAA">
 <XPD:ATTR name="Name" type="string">functionId</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">系统功能ID</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">Xy/n9Fy01kmCS06BVjBmwwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="S5hcZaqGzE6VYHQu7tkDhAAA">
 <XPD:ATTR name="Name" type="string">accountId</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户ID</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">Xy/n9Fy01kmCS06BVjBmwwAA</XPD:REF>
@@ -13241,30 +13332,35 @@
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="B2GWNDV9rUmDSig9dLaZKgAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">主键标识</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="V0ty/FyMtkCiQDBFZSM0YQAA">
 <XPD:ATTR name="Name" type="string">title</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">功能名称</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[2]" type="UMLAttribute" guid="BoT8t7OYrkWvkDQHUhQjrwAA">
 <XPD:ATTR name="Name" type="string">url</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">功能请求URL</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[3]" type="UMLAttribute" guid="Y2b9X/0M2UqVsIVS1+WaLwAA">
 <XPD:ATTR name="Name" type="string">parentId</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">父系统功能ID</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[4]" type="UMLAttribute" guid="gQsmwXBVA0uRg7T/IRIAPAAA">
 <XPD:ATTR name="Name" type="string">level</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">级别</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
@@ -13280,6 +13376,7 @@
 <XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="c9XlqCBccEql7lpgIl8DOAAA">
 <XPD:ATTR name="Name" type="string">addAccount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">添加子账户</XPD:ATTR>
 <XPD:REF name="Owner">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="QkBBofMkfEqfJHSdjdbTNQAA">
@@ -13291,6 +13388,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="z9E15iy3NkeMrnNl7Tr/yAAA">
 <XPD:ATTR name="Name" type="string">updateAccount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">修改子账户</XPD:ATTR>
 <XPD:REF name="Owner">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="IhJH79R75kmmCQKbusDIvAAA">
@@ -13302,6 +13400,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="kUb90/BnQUqnzSd3nKGU2gAA">
 <XPD:ATTR name="Name" type="string">getAccount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">获取子账户信息</XPD:ATTR>
 <XPD:REF name="Owner">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="3AFB1gbsTUmKw0SrN/HhLAAA">
@@ -13311,6 +13410,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="EKAQp8bgQk+K3NqoKMvjqAAA">
 <XPD:ATTR name="Name" type="string">account</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">AccountEntity</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">kUb90/BnQUqnzSd3nKGU2gAA</XPD:REF>
 <XPD:REF name="Type_">x/GPwlsGSkqwehQ5rKJuGQAA</XPD:REF>
@@ -13318,6 +13418,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="OSshUI73s0WQ6bbFsrXtSAAA">
 <XPD:ATTR name="Name" type="string">deleteAccount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">删除子账户</XPD:ATTR>
 <XPD:REF name="Owner">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Zu7pGugAnUKKhUbTWthXJQAA">
@@ -13328,6 +13429,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="66l7mQ0mHUivXIjdbabGIwAA">
 <XPD:ATTR name="Name" type="string">queryAccount</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">子账户高级查询</XPD:ATTR>
 <XPD:REF name="Owner">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="gMyIbI1hvkyTioTnPMUMXgAA">
@@ -13338,6 +13440,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="AmsVPJojV0ekFtVm6Fx+fQAA">
 <XPD:ATTR name="Name" type="string">accountList</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;AccountEntity&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">66l7mQ0mHUivXIjdbabGIwAA</XPD:REF>
 </XPD:OBJ>
@@ -13353,6 +13456,7 @@
 <XPD:ATTR name="#Operations" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="mbLh3nKBvEuUcNIu7HCVAwAA">
 <XPD:ATTR name="Name" type="string">addFunction</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">添加系统功能</XPD:ATTR>
 <XPD:REF name="Owner">Ax9sFV+T8kenEe5hR1y5PwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="A7qYZg4ur02Ho9BZYmOIHgAA">
@@ -13364,6 +13468,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="6PJz7PBbGk2pMPCv3+MFCwAA">
 <XPD:ATTR name="Name" type="string">updateFunction</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">修改系统功能</XPD:ATTR>
 <XPD:REF name="Owner">Ax9sFV+T8kenEe5hR1y5PwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="l6TTD1arbUqH2RY8Z46lQAAA">
@@ -13375,6 +13480,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="VT3n2SAtekylB09pe4qedAAA">
 <XPD:ATTR name="Name" type="string">deleteFunction</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">删除系统功能</XPD:ATTR>
 <XPD:REF name="Owner">Ax9sFV+T8kenEe5hR1y5PwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Ew4vjNW0m0+SwaR/1YJETgAA">
@@ -13385,6 +13491,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="R/5v/Dj/SkKc8pvsVnWnOgAA">
 <XPD:ATTR name="Name" type="string">queryFunction</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">系统功能高级查询</XPD:ATTR>
 <XPD:REF name="Owner">Ax9sFV+T8kenEe5hR1y5PwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ZgIRJ6wUAUO9y59YSMLAMQAA">
@@ -13395,6 +13502,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="KaaoxnIP/k24K6xoixIsvQAA">
 <XPD:ATTR name="Name" type="string">functionList</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;FunctionEntity&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">R/5v/Dj/SkKc8pvsVnWnOgAA</XPD:REF>
 </XPD:OBJ>
@@ -13410,6 +13518,7 @@
 <XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="9De/Uc3AKE6iS8L9E7sqqwAA">
 <XPD:ATTR name="Name" type="string">addRoles</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">添加权限</XPD:ATTR>
 <XPD:REF name="Owner">a3VB37OwUkSicx62bAGuBgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="FfSVZovX006D4xb7DwzVIAAA">
@@ -13421,6 +13530,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[1]" type="UMLOperation" guid="+oqjGLvLT0igQEFtLKwhDgAA">
 <XPD:ATTR name="Name" type="string">deleteRoles</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">删除权限</XPD:ATTR>
 <XPD:REF name="Owner">a3VB37OwUkSicx62bAGuBgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="z0SILMKCWUaYO17sUWTPPgAA">
@@ -13431,6 +13541,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="iFHJ8vF5PEKFAL+R8YigtwAA">
 <XPD:ATTR name="Name" type="string">getRoles</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">获取权限列表</XPD:ATTR>
 <XPD:REF name="Owner">a3VB37OwUkSicx62bAGuBgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="0yJh949p6ECdS9uP4ozklwAA">
