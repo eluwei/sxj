@@ -13744,9 +13744,10 @@
 <XPD:REF name="Views[1]">9Io4hY3lTEGMdqPqOGuZ7gAA</XPD:REF>
 <XPD:REF name="Views[2]">BThahVwP/UifQy+ZszuVLgAA</XPD:REF>
 <XPD:REF name="Views[3]">iit4qT4iWkK5Q/xpUzIY9QAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">A7qYZg4ur02Ho9BZYmOIHgAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">l6TTD1arbUqH2RY8Z46lQAAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">ZgIRJ6wUAUO9y59YSMLAMQAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="B2GWNDV9rUmDSig9dLaZKgAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -13913,10 +13914,10 @@
 <XPD:REF name="Owner">Ax9sFV+T8kenEe5hR1y5PwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ZgIRJ6wUAUO9y59YSMLAMQAA">
-<XPD:ATTR name="Name" type="string">query</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">function</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">FunctionEntity</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">R/5v/Dj/SkKc8pvsVnWnOgAA</XPD:REF>
-<XPD:REF name="Type_">n+4rHtHx7kecPp4fn+bZvgAA</XPD:REF>
+<XPD:REF name="Type_">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="KaaoxnIP/k24K6xoixIsvQAA">
 <XPD:ATTR name="Name" type="string">functionList</XPD:ATTR>
@@ -15497,10 +15498,9 @@
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="n+4rHtHx7kecPp4fn+bZvgAA">
 <XPD:ATTR name="Name" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="Namespace">VpWCXDcdjUW203MFP6Jv6gAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">sM+ZW6XB1EOzt2TxQhx2vwAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">gMyIbI1hvkyTioTnPMUMXgAA</XPD:REF>
-<XPD:REF name="TypedParameters[2]">ZgIRJ6wUAUO9y59YSMLAMQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
