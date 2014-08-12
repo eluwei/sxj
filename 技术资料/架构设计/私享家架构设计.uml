@@ -12014,7 +12014,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLInterface" guid="zrULdg+miUCegH0sBB3mEgAA">
 <XPD:ATTR name="Name" type="string">IMemberService</XPD:ATTR>
 <XPD:REF name="Namespace">ELvzBlIG9E2voGfozbYp/wAA</XPD:REF>
@@ -12022,7 +12022,7 @@
 <XPD:REF name="Views[0]">hEC9aGPL1kyiCShqhNiv+wAA</XPD:REF>
 <XPD:REF name="Views[1]">/ZiYBNHA306oBxsUY8Z62gAA</XPD:REF>
 <XPD:REF name="Views[2]">tOU7QPZ9O06sHSZirqlRlgAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="1RysCmuuc0Kn9JFQ2pQ5OQAA">
 <XPD:ATTR name="Name" type="string">addMember</XPD:ATTR>
 <XPD:REF name="Owner">zrULdg+miUCegH0sBB3mEgAA</XPD:REF>
@@ -12078,6 +12078,16 @@
 <XPD:REF name="BehavioralFeature">2rfVzm+rIkm+MfGXbklbAAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="XOfuqLt+gEO6nz5POtGDWgAA">
+<XPD:ATTR name="Name" type="string">removeMember</XPD:ATTR>
+<XPD:REF name="Owner">zrULdg+miUCegH0sBB3mEgAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="5N/4R2Lp7UG0T87VtTnK1gAA">
+<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">XOfuqLt+gEO6nz5POtGDWgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 <XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="eXGf923pP0i4GXXJTClwAQAA">
 <XPD:ATTR name="Name" type="string">memberDao</XPD:ATTR>
@@ -12094,7 +12104,7 @@
 <XPD:REF name="Views[0]">gsK0mqZhrEWK9+6KpOad+wAA</XPD:REF>
 <XPD:REF name="Views[1]">evCMvAxcS0G+Jz8CR9DPhgAA</XPD:REF>
 <XPD:REF name="Views[2]">bUDjzKtSA06Fg0n3SMKUDgAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="Z8/p5O6ngE6Yp35JFWo6VwAA">
 <XPD:ATTR name="Name" type="string">addAccount</XPD:ATTR>
 <XPD:REF name="Owner">oXS4hRw8dkaVo8VIMXrsagAA</XPD:REF>
@@ -12150,6 +12160,24 @@
 <XPD:ATTR name="TypeExpression" type="string">ResultList&lt;AccountEntity&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">4rYnAaqTXEyiYCjOFKNWpwAA</XPD:REF>
 </XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="yXUR9q8Likmx1SQRsjHOkAAA">
+<XPD:ATTR name="Name" type="string">reomveAccount</XPD:ATTR>
+<XPD:REF name="Owner">oXS4hRw8dkaVo8VIMXrsagAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="IEGoUYgvsU23a5OsqbIl7gAA">
+<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">yXUR9q8Likmx1SQRsjHOkAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="OOPwJXWNK0uxfylFOfqScAAA">
+<XPD:ATTR name="Name" type="string">accountDao</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">IAccountDao</XPD:ATTR>
+<XPD:REF name="Type_">qkFm0JmJgkONSrewoVXK5QAA</XPD:REF>
+<XPD:REF name="Owner">oXS4hRw8dkaVo8VIMXrsagAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="kB2kybIbw0yDbpvAn93k3gAA">
@@ -12282,6 +12310,54 @@
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">3r7WDMmeJUqtjdQ4G6p9dwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedElements[4]" type="UMLInterface" guid="K+p4Qu9At0yRoNzjwO/8+wAA">
+<XPD:ATTR name="Name" type="string">IRoleService</XPD:ATTR>
+<XPD:REF name="Namespace">ELvzBlIG9E2voGfozbYp/wAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">3</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="wmZtt39huEaXJMinftRy/wAA">
+<XPD:ATTR name="Name" type="string">addRoles</XPD:ATTR>
+<XPD:REF name="Owner">K+p4Qu9At0yRoNzjwO/8+wAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="T7EGnM2AeEqDKFC3gbgplQAA">
+<XPD:ATTR name="Name" type="string">roles</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;RoleEntity&gt;</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">wmZtt39huEaXJMinftRy/wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="DKBYRzIsjUeWdBqXCXHpVwAA">
+<XPD:ATTR name="Name" type="string">removeRoles</XPD:ATTR>
+<XPD:REF name="Owner">K+p4Qu9At0yRoNzjwO/8+wAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="tczQoC3P+0mG/KeSVV/bOgAA">
+<XPD:ATTR name="Name" type="string">accountId</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">DKBYRzIsjUeWdBqXCXHpVwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[2]" type="UMLOperation" guid="f9frR07JfEO9dQudJZKZ3QAA">
+<XPD:ATTR name="Name" type="string">getRoles</XPD:ATTR>
+<XPD:REF name="Owner">K+p4Qu9At0yRoNzjwO/8+wAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Euokgd/ie026nzwotufzMgAA">
+<XPD:ATTR name="Name" type="string">accountId</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">f9frR07JfEO9dQudJZKZ3QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="OeP/zq9lekCjpJMrRJ8VOwAA">
+<XPD:ATTR name="Name" type="string">roles</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;RoleEntity&gt;</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">f9frR07JfEO9dQudJZKZ3QAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="D9wUjgs7kEeDgJSPxVuu/gAA">
+<XPD:ATTR name="Name" type="string">roleDao</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">IRoleDao</XPD:ATTR>
+<XPD:REF name="Type_">a3VB37OwUkSicx62bAGuBgAA</XPD:REF>
+<XPD:REF name="Owner">K+p4Qu9At0yRoNzjwO/8+wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -13863,6 +13939,8 @@
 <XPD:REF name="BehavioralFeature">66l7mQ0mHUivXIjdbabGIwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
+<XPD:REF name="TypedFeatures[0]">OOPwJXWNK0uxfylFOfqScAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[6]" type="UMLInterface" guid="Ax9sFV+T8kenEe5hR1y5PwAA">
 <XPD:ATTR name="Name" type="string">IFunctionDao</XPD:ATTR>
@@ -13973,6 +14051,8 @@
 <XPD:REF name="BehavioralFeature">iFHJ8vF5PEKFAL+R8YigtwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
+<XPD:REF name="TypedFeatures[0]">D9wUjgs7kEeDgJSPxVuu/gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLModel" guid="AKDzMtCEd0WYIl1In5uSCwAA">
