@@ -14278,42 +14278,49 @@
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[7]" type="UMLAttribute" guid="ArpG+WtyzUKLq3VSI9/WSgAA">
 <XPD:ATTR name="Name" type="string">memberNameB</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">乙方会员名称</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[8]" type="UMLAttribute" guid="kxBDR2LUHU+ZiQ6vvDbeMgAA">
 <XPD:ATTR name="Name" type="string">type</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">备案类型</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[9]" type="UMLAttribute" guid="7qr9CMFLbUaynB1+5flyAwAA">
 <XPD:ATTR name="Name" type="string">imgPath</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">备案扫描件</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[10]" type="UMLAttribute" guid="JK9mN+9vXEaKT7y+sBPJUQAA">
 <XPD:ATTR name="Name" type="string">state</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">备案状态</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[11]" type="UMLAttribute" guid="KqGOKLyDjk2SQ6Vnict6gwAA">
 <XPD:ATTR name="Name" type="string">contractType</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">合同类型</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[12]" type="UMLAttribute" guid="w5Glke7iG0SP7Ax3uz9WoAAA">
 <XPD:ATTR name="Name" type="string">contractNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">绑定合同号</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Attributes[13]" type="UMLAttribute" guid="8j74EdqyQUy7sdmA1B390QAA">
 <XPD:ATTR name="Name" type="string">refContractNo</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">关联招标合同</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>

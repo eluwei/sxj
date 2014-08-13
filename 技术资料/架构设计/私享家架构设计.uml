@@ -14226,7 +14226,7 @@
 <XPD:REF name="TypedParameters[0]">GTNG4GphgEKb64TwBTFtcQAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">KuMBhWabfECapZU1sq8MgwAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">dXd+J7WuQkWdylhO5uWBcgAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">14</XPD:ATTR>
+<XPD:ATTR name="#Attributes" type="integer">16</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="MwvPdbLxE0CGprM1hvaz4AAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
 <XPD:ATTR name="Documentation" type="string">主键ID</XPD:ATTR>
@@ -14323,6 +14323,20 @@
 <XPD:ATTR name="Documentation" type="string">关联招标合同</XPD:ATTR>
 <XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[14]" type="UMLAttribute" guid="JO24ImGOh0af5Wx/rwKrFQAA">
+<XPD:ATTR name="Name" type="string">applyDate</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">申请时间</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">java.util.Date</XPD:ATTR>
+<XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Attributes[15]" type="UMLAttribute" guid="eeXSbpQO+UeVDKpd5r67YAAA">
+<XPD:ATTR name="Name" type="string">acceptDate</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">受理时间</XPD:ATTR>
+<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkPrivate</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">java.util.Date</XPD:ATTR>
 <XPD:REF name="Owner">pjM9eSkIQ0KsAlPkt8a07AAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
