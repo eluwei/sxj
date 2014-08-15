@@ -14093,9 +14093,10 @@
 <XPD:REF name="Views[3]">vEzym+l4U0iqb0NqWzXRdAAA</XPD:REF>
 <XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>
 <XPD:REF name="TypedFeatures[0]">Ndh22v8xE0OmmVMSlZWefgAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">DXRvXFofm0G/2EqMub6cjAAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">VNMRR5DnC0evq9Md3D19wAAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">rpP6omx480KJPe7yxUTrDAAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="2mLhEkmcq0mHAt2bB9qHfAAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -14136,7 +14137,7 @@
 <XPD:OBJ name="OwnedElements[10]" type="UMLInterface" guid="WM2aTjGdSkKrAJiH+1QcWwAA">
 <XPD:ATTR name="Name" type="string">IContractImgDao</XPD:ATTR>
 <XPD:REF name="Namespace">tV2sktcHz0+aqtvaBpA1UQAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="C6T24dEh+Eu46fK0ysBmAQAA">
 <XPD:ATTR name="Name" type="string">addImage</XPD:ATTR>
 <XPD:ATTR name="Documentation" type="string">新增合同扫描件</XPD:ATTR>
@@ -14185,6 +14186,17 @@
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">ContractImgEntity</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">JpDvKaQF20ebCGj9Z7Xc7QAA</XPD:REF>
+<XPD:REF name="Type_">Ieqn8jC2xESh88cCkIliQwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="UCX6MVErs0OCX1N0Q19T9AAA">
+<XPD:ATTR name="Name" type="string">updateImage</XPD:ATTR>
+<XPD:REF name="Owner">WM2aTjGdSkKrAJiH+1QcWwAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="rpP6omx480KJPe7yxUTrDAAA">
+<XPD:ATTR name="Name" type="string">image</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">ContractImgEntity</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">UCX6MVErs0OCX1N0Q19T9AAA</XPD:REF>
 <XPD:REF name="Type_">Ieqn8jC2xESh88cCkIliQwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>

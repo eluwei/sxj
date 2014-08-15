@@ -12569,6 +12569,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[5]" type="UMLOperation" guid="MbSvUL9aLkqdC72GFDGbVAAA">
 <XPD:ATTR name="Name" type="string">changeContract</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">变更合同</XPD:ATTR>
 <XPD:REF name="Owner">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="a7VbP2wBUky/qnpA6A7V/QAA">
@@ -12584,6 +12585,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Operations[6]" type="UMLOperation" guid="OD/e1I8ni0i2jwNlwD4XCgAA">
 <XPD:ATTR name="Name" type="string">suppContract</XPD:ATTR>
+<XPD:ATTR name="Documentation" type="string">补损合同</XPD:ATTR>
 <XPD:REF name="Owner">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="NRzurNCTcU2ZH+8Q68+IVAAA">
