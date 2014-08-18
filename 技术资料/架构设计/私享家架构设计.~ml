@@ -12559,7 +12559,7 @@
 <XPD:REF name="Views[0]">a0wcMqjxykGZX3/ayAO+jAAA</XPD:REF>
 <XPD:REF name="Views[1]">P49JNHIpyk+DsPCxJSgYMQAA</XPD:REF>
 <XPD:REF name="Views[2]">YhA0Jq+3eEuEwm+bE3aomQAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">9</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">10</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="NeNAY6PTQUaTsuDPGB6r5QAA">
 <XPD:ATTR name="Name" type="string">addContract</XPD:ATTR>
 <XPD:ATTR name="Documentation" type="string">新增合同</XPD:ATTR>
@@ -12717,6 +12717,21 @@
 <XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">wJzscc4Iq0SZXL1htNfM+AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[9]" type="UMLOperation" guid="m30Q1kMK7UanfvXZDyl5ZgAA">
+<XPD:ATTR name="Name" type="string">modifyCheckState</XPD:ATTR>
+<XPD:REF name="Owner">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="qullbszugEmSq1EDOBlKzAAA">
+<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">m30Q1kMK7UanfvXZDyl5ZgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="YzfKhW+tJ0uVch8C9sV1OgAA">
+<XPD:ATTR name="Name" type="string">state</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">m30Q1kMK7UanfvXZDyl5ZgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
