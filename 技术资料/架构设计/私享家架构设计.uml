@@ -12363,6 +12363,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="I0w/0/Yg1Ua2Zfq1I91f6gAA">
 <XPD:ATTR name="Name" type="string">functionList</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;FunctionEntity&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">jVhLYzOb80GcLbpNjlh5XwAA</XPD:REF>
 </XPD:OBJ>
@@ -12378,6 +12379,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="OBw/BZ2VxE+9P5NQPi+/QgAA">
 <XPD:ATTR name="Name" type="string">function</XPD:ATTR>
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">FunctionEntity</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">a8nkJVkuwkCVgdNM1pOvOAAA</XPD:REF>
 <XPD:REF name="Type_">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
@@ -14448,9 +14450,10 @@
 <XPD:REF name="Owner">kzQMWLdtV0G3TxOEDWylyQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="muBDQHVpL0SD8kxa5XIppwAA">
-<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">query</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Km7tWbVV8ES0GZgG5nhqUAAA</XPD:REF>
+<XPD:REF name="Type_">n+4rHtHx7kecPp4fn+bZvgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="Jd7khlEAXUerU0rUq+tMRwAA">
 <XPD:ATTR name="Name" type="string">items</XPD:ATTR>
@@ -14519,8 +14522,10 @@
 <XPD:REF name="Owner">Ug3hqG5GNUeMxJBdj3kXkwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="mCJyDRWD/UyoOTmb7Xr2qgAA">
-<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">query</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">YgacH06d7EGmL5hMjZxeXQAA</XPD:REF>
+<XPD:REF name="Type_">n+4rHtHx7kecPp4fn+bZvgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="TY2HoIyITkWePneeOJgTJAAA">
 <XPD:ATTR name="Name" type="string">bacthList</XPD:ATTR>
@@ -15499,7 +15504,7 @@
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="PDqHFUKJEk+q5eRVJeoC5gAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">aoBku3nU00qnQi8JcDtJpQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="dXd+J7WuQkWdylhO5uWBcgAA">
@@ -15516,7 +15521,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="oE4WiOHTMEuLlkh9bGiWFAAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ASYfvaojIE2r2qkvY7lvAQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -16941,12 +16946,14 @@
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="n+4rHtHx7kecPp4fn+bZvgAA">
 <XPD:ATTR name="Name" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="Namespace">VpWCXDcdjUW203MFP6Jv6gAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">7</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">sM+ZW6XB1EOzt2TxQhx2vwAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">gMyIbI1hvkyTioTnPMUMXgAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">ZgIRJ6wUAUO9y59YSMLAMQAA</XPD:REF>
 <XPD:REF name="TypedParameters[3]">e7VKKQ6tlkGQkOiGv5GFOAAA</XPD:REF>
 <XPD:REF name="TypedParameters[4]">l6di9AY2KEasxb8vyvOdhgAA</XPD:REF>
+<XPD:REF name="TypedParameters[5]">mCJyDRWD/UyoOTmb7Xr2qgAA</XPD:REF>
+<XPD:REF name="TypedParameters[6]">muBDQHVpL0SD8kxa5XIppwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
