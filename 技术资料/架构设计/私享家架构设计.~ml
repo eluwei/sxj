@@ -12014,7 +12014,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#OwnedElements" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#OwnedElements" type="integer">6</XPD:ATTR>
 <XPD:OBJ name="OwnedElements[0]" type="UMLInterface" guid="zrULdg+miUCegH0sBB3mEgAA">
 <XPD:ATTR name="Name" type="string">IMemberService</XPD:ATTR>
 <XPD:REF name="Namespace">ELvzBlIG9E2voGfozbYp/wAA</XPD:REF>
@@ -12353,6 +12353,37 @@
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="OwnedElements[5]" type="UMLInterface" guid="0PHr4uF6xkSPV0ff3eCpigAA">
+<XPD:ATTR name="Name" type="string">IFunctionService</XPD:ATTR>
+<XPD:REF name="Namespace">ELvzBlIG9E2voGfozbYp/wAA</XPD:REF>
+<XPD:ATTR name="#Operations" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Operations[0]" type="UMLOperation" guid="jVhLYzOb80GcLbpNjlh5XwAA">
+<XPD:ATTR name="Name" type="string">queryFunctions</XPD:ATTR>
+<XPD:REF name="Owner">0PHr4uF6xkSPV0ff3eCpigAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="I0w/0/Yg1Ua2Zfq1I91f6gAA">
+<XPD:ATTR name="Name" type="string">functionList</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">java.util.List&lt;FunctionEntity&gt;</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">jVhLYzOb80GcLbpNjlh5XwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[1]" type="UMLOperation" guid="a8nkJVkuwkCVgdNM1pOvOAAA">
+<XPD:ATTR name="Name" type="string">getFunction</XPD:ATTR>
+<XPD:REF name="Owner">0PHr4uF6xkSPV0ff3eCpigAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="LvKbEV2aJ0q92HvIe8zVnwAA">
+<XPD:ATTR name="Name" type="string">id</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">a8nkJVkuwkCVgdNM1pOvOAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="OBw/BZ2VxE+9P5NQPi+/QgAA">
+<XPD:ATTR name="Name" type="string">function</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">FunctionEntity</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">a8nkJVkuwkCVgdNM1pOvOAAA</XPD:REF>
+<XPD:REF name="Type_">1WSC99lPvUGF/r5bVUHquwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[1]" type="UMLModel" guid="4UP49GQpYk2lRd7QkcPI2wAA">
 <XPD:ATTR name="Name" type="string">合同管理业务层</XPD:ATTR>
@@ -12559,7 +12590,7 @@
 <XPD:REF name="Views[0]">a0wcMqjxykGZX3/ayAO+jAAA</XPD:REF>
 <XPD:REF name="Views[1]">P49JNHIpyk+DsPCxJSgYMQAA</XPD:REF>
 <XPD:REF name="Views[2]">YhA0Jq+3eEuEwm+bE3aomQAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">9</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">10</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="NeNAY6PTQUaTsuDPGB6r5QAA">
 <XPD:ATTR name="Name" type="string">addContract</XPD:ATTR>
 <XPD:ATTR name="Documentation" type="string">新增合同</XPD:ATTR>
@@ -12717,6 +12748,21 @@
 <XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">wJzscc4Iq0SZXL1htNfM+AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[9]" type="UMLOperation" guid="m30Q1kMK7UanfvXZDyl5ZgAA">
+<XPD:ATTR name="Name" type="string">modifyCheckState</XPD:ATTR>
+<XPD:REF name="Owner">VfEgGXRSD0KwVRneoV6/qAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="qullbszugEmSq1EDOBlKzAAA">
+<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">m30Q1kMK7UanfvXZDyl5ZgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="YzfKhW+tJ0uVch8C9sV1OgAA">
+<XPD:ATTR name="Name" type="string">state</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">m30Q1kMK7UanfvXZDyl5ZgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -14402,9 +14448,10 @@
 <XPD:REF name="Owner">kzQMWLdtV0G3TxOEDWylyQAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="muBDQHVpL0SD8kxa5XIppwAA">
-<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">query</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Km7tWbVV8ES0GZgG5nhqUAAA</XPD:REF>
+<XPD:REF name="Type_">n+4rHtHx7kecPp4fn+bZvgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="Jd7khlEAXUerU0rUq+tMRwAA">
 <XPD:ATTR name="Name" type="string">items</XPD:ATTR>
@@ -14473,8 +14520,10 @@
 <XPD:REF name="Owner">Ug3hqG5GNUeMxJBdj3kXkwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="mCJyDRWD/UyoOTmb7Xr2qgAA">
-<XPD:ATTR name="Name" type="string">contractId</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">query</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">YgacH06d7EGmL5hMjZxeXQAA</XPD:REF>
+<XPD:REF name="Type_">n+4rHtHx7kecPp4fn+bZvgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="TY2HoIyITkWePneeOJgTJAAA">
 <XPD:ATTR name="Name" type="string">bacthList</XPD:ATTR>
@@ -15111,9 +15160,10 @@
 <XPD:REF name="Views[1]">9Io4hY3lTEGMdqPqOGuZ7gAA</XPD:REF>
 <XPD:REF name="Views[2]">BThahVwP/UifQy+ZszuVLgAA</XPD:REF>
 <XPD:REF name="Views[3]">iit4qT4iWkK5Q/xpUzIY9QAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">A7qYZg4ur02Ho9BZYmOIHgAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">l6TTD1arbUqH2RY8Z46lQAAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">OBw/BZ2VxE+9P5NQPi+/QgAA</XPD:REF>
 <XPD:ATTR name="#Attributes" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="B2GWNDV9rUmDSig9dLaZKgAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
@@ -15452,7 +15502,7 @@
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="PDqHFUKJEk+q5eRVJeoC5gAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">aoBku3nU00qnQi8JcDtJpQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="dXd+J7WuQkWdylhO5uWBcgAA">
@@ -15469,7 +15519,7 @@
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="oE4WiOHTMEuLlkh9bGiWFAAA">
 <XPD:ATTR name="Name" type="string">id</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">Integer</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ASYfvaojIE2r2qkvY7lvAQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -16894,12 +16944,14 @@
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="n+4rHtHx7kecPp4fn+bZvgAA">
 <XPD:ATTR name="Name" type="string">QueryCondition&lt;T&gt;</XPD:ATTR>
 <XPD:REF name="Namespace">VpWCXDcdjUW203MFP6Jv6gAA</XPD:REF>
-<XPD:ATTR name="#TypedParameters" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">7</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">sM+ZW6XB1EOzt2TxQhx2vwAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">gMyIbI1hvkyTioTnPMUMXgAA</XPD:REF>
 <XPD:REF name="TypedParameters[2]">ZgIRJ6wUAUO9y59YSMLAMQAA</XPD:REF>
 <XPD:REF name="TypedParameters[3]">e7VKKQ6tlkGQkOiGv5GFOAAA</XPD:REF>
 <XPD:REF name="TypedParameters[4]">l6di9AY2KEasxb8vyvOdhgAA</XPD:REF>
+<XPD:REF name="TypedParameters[5]">mCJyDRWD/UyoOTmb7Xr2qgAA</XPD:REF>
+<XPD:REF name="TypedParameters[6]">muBDQHVpL0SD8kxa5XIppwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
